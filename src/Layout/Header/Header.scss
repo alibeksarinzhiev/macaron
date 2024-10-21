@@ -1,0 +1,40 @@
+.header{
+    padding: 20px;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__search{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        input{
+            width: 600px;
+            height: 40px;
+            border-right: none;
+        }
+        button{
+            background: #e96023;
+            width: 100px;
+            height: 40px;
+            border-radius: 0 20px 20px 0;
+            border-left: none;
+        }
+    }
+    &__line{
+        height: 2px;
+        background: #BDBDBD;
+        margin:23px 0 31px;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            column-gap: 40px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
