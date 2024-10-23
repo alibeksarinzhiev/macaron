@@ -5,6 +5,7 @@ import logo from './images/логотип 3 (1).png'
 import facebook from './images/facebook 2 (1).png'
 import telegram from './images/telegram 2 (1).png'
 import inst from './images/instagram 2.svg'
+import Shop from '../../Pages/Shop/Shop'
 
 const Header = () => {
     return (
@@ -32,7 +33,7 @@ const Header = () => {
                 <ul>
                     <li>ГЛАВНАЯ</li>
                     <li>О НАС</li>
-                    <li>МАГАЗИНЫ</li>
+                    <li><Link to='/shop'>МАГАЗИН</Link></li>
                     <li>НОВОСТИ</li>
                     <li>ПОЛЕЗНОЕ</li>
                 </ul>
