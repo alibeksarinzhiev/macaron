@@ -1,0 +1,114 @@
+.vacancies {
+    padding: 34px 0 89px 0;
+    background: #F9F9F9;
+}
+
+.vacancies .container{
+    .pos-yellow{
+        .FADF00{
+            width: 396px;
+            height: 20px;
+            background: #FADF00;
+            position: relative;
+            top: -12px;
+            left: 18px;
+            
+        }
+        h3{
+            font-size: 30px;
+            position: relative;
+            z-index: 10;
+        }
+    }
+
+    .vacancies__btns{
+        display: flex;
+        margin: 80px 0 50px 0;
+    }
+
+    .vacancies__btns p{
+        width: 261px;
+        height: 55px;
+        border-radius: 27.5px;
+        text-align: center;
+        font-size: 22px;
+        color:  #E96023;
+        padding: 15px 0 0 0 ;
+        border: 2px solid #E96023 ;
+    }
+
+    .vacancies__btns p:nth-child(2){
+        border-left:none ;
+        border-radius: 0;
+        border-right:none ;
+        
+    }
+
+    .vacancies__btns p:nth-child(3){
+        border-left:none ;
+        border-radius: 0;
+        border-radius: 0 27.5px 27.5px 0 ;        
+    }
+
+    .vacancies__btns p:nth-child(1){
+        background: #30922F;
+        color: white;
+        border: none;
+    }
+
+
+
+    .vacancies__bottom{
+        display: flex;
+        margin: 56px 0 0 0;
+        align-items: center;
+        column-gap: 14px;
+        p{
+            font-size: 22px;
+            background: none;
+        }
+        button{
+            border:2px solid #356C2D;
+            color: #356C2D;
+            border-radius: 27.5px;
+            width: 216px;
+            height: 55px;
+            background: none;
+        }
+    }
+}
+
+.own{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 28px;
+    .own-vacancies{
+        width: 419px;
+        height: 155px;
+        border: 2px solid #E96023 ;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 44px;
+        .own-vacancies-right{
+            display: flex; 
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+            p{
+                font-size: 24px;
+                width: 143px;
+            }
+            h4{
+                font-size: 22px;
+            }
+            .own-line{
+                background: #000 ;
+                width: 171px;
+                height: 1px;
+            }
+        }
+    }
+}

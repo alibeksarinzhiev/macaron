@@ -1,0 +1,36 @@
+
+.boss .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boss__right__img{
+    background: url(../imgs/image.png)center / cover no-repeat;
+    width: 562px;
+    height: 378px;
+}
+
+.boss{
+    padding: 97px 0 122px 0;
+}
+
+.boss__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h4{
+        font-size: 26px;
+    }
+
+    span{
+        font-size: 18px;
+        margin: 18px 0 41px 0;
+    }
+
+    p{
+        font-size: 22px;
+        line-height: 40px;
+        width: 759px;
+    }
+}
+

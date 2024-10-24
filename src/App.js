@@ -8,7 +8,7 @@ import Single from './Pages/Single/Single.js';
 import NotFound from './Pages/NotFound/NotFound.js';
 import Layout from './Layout/Layout.js';
 import About from './Pages/AboutUs/AboutUs.js'
-import Carrier from './Pages/Carrier/Carrier.js'
+import Carrier from './Pages/Carrier/Carrier.jsx'
 import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
