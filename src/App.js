@@ -12,7 +12,7 @@ import Carrier from './Pages/Carrier/Carrier.js'
 import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
-import Search from './Pages/Search/Search.js'
+import Search from './Pages/Search/Search.jsx'
 import Special from './Pages/Special/Special.js'
 
 const App = () => {

@@ -1,0 +1,32 @@
+.search__card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 290px;
+    width: 100%;
+    img{
+        height: 100%;
+        width: 60%;
+    }
+    &__text{
+        padding: 20px 0 0 20px;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        &__date{
+            color: rgba(159, 159, 159, 1);
+        }
+        button{
+            color: rgba(233, 96, 35, 1);
+            text-decoration: underline;
+            background: none;
+            border: none;
+        }
+        h3{
+            font-size: 25px;
+            width: 43%;
+        }
+    }
+}
