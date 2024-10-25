@@ -1,0 +1,56 @@
+.about__home .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about__home {
+    background-color: #fbfbfb;
+    padding-top: 73px;
+    padding-bottom: 85px;
+}
+
+.about__home__name {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Circe", sans-serif;
+    margin-bottom: 53px;
+    position: relative;
+    z-index: 1;
+}
+
+.about__home__name::after {
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    background-color: #FADF00;
+    top: 15px;
+    left: 23px;
+    z-index: -1;
+}
+
+.about__home__text {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Circe", sans-serif;
+    line-height: 40px;
+}
+
+.about__home__btn {
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: #FADF00;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Circe", sans-serif;
+    border: none;
+    margin-left: 500px;
+    margin-top: 80px;
+}
+
+.about__home__btn:hover {
+    background-color: #e96023;
+    color: white;
+    transition: .3s;
+}
