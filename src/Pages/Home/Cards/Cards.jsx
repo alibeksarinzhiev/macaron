@@ -1,9 +1,15 @@
 import React from 'react';
 import './Cards.scss'
 import cardImages from './CardsImg/кукуруза 1 (1).svg'
+import {useSelector } from 'react-redux';
 
 
 const Cards = () => {
+
+    const products = useSelector((state)=>state.productsSlice.data)
+   
+
+    
     return (
         <section className='cards'>
             <div className="cards__container container">
@@ -14,114 +20,29 @@ const Cards = () => {
                 </div>
                 
                 <div className="cards__box">
-
-                    <div className="card">
+                    {products.map((el)=>(
+                        <div className="card">
                         <div className="card__left">
                             <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
-                            <img className='card__img' src={cardImages} alt="" />
+                            <img className='card__img' src={el.image} alt="" />
                         </div>
 
                         <div className="card__right">
                             <div className="card__right__30">
-                                <p>-30%</p>
+                                <p>{el.sale}</p>
                             </div>
                             <div className="card__name">
-                                <p className='card__right__asal'>“ASAL”  Мёд</p>
+                                <p className='card__right__asal'>{el.title}</p>
                                 <p className='card__price'>17.<span>500</span></p>
-                                <p className='card__price__uzs'>UZS</p>
+                                <p className='card__price__uzs'>{el.valute}</p>
                             </div>
                         </div>
                     </div>
+                    ))}
 
-                    <div className="card">
-                        <div className="card__left">
-                            <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
-                            <img className='card__img' src={cardImages} alt="" />
-                        </div>
+                    
 
-                        <div className="card__right">
-                            <div className="card__right__30">
-                                <p>-30%</p>
-                            </div>
-                            <div className="card__name">
-                                <p className='card__right__asal'>“ASAL”  Мёд</p>
-                                <p className='card__price'>17.<span>500</span></p>
-                                <p className='card__price__uzs'>UZS</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="card__left">
-                            <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
-                            <img className='card__img' src={cardImages} alt="" />
-                        </div>
-
-                        <div className="card__right">
-                            <div className="card__right__30">
-                                <p>-30%</p>
-                            </div>
-                            <div className="card__name">
-                                <p className='card__right__asal'>“ASAL”  Мёд</p>
-                                <p className='card__price'>17.<span>500</span></p>
-                                <p className='card__price__uzs'>UZS</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="card__left">
-                            <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
-                            <img className='card__img' src={cardImages} alt="" />
-                        </div>
-
-                        <div className="card__right">
-                            <div className="card__right__30">
-                                <p>-30%</p>
-                            </div>
-                            <div className="card__name">
-                                <p className='card__right__asal'>“ASAL”  Мёд</p>
-                                <p className='card__price'>17.<span>500</span></p>
-                                <p className='card__price__uzs'>UZS</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="card__left">
-                            <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
-                            <img className='card__img' src={cardImages} alt="" />
-                        </div>
-
-                        <div className="card__right">
-                            <div className="card__right__30">
-                                <p>-30%</p>
-                            </div>
-                            <div className="card__name">
-                                <p className='card__right__asal'>“ASAL”  Мёд</p>
-                                <p className='card__price'>17.<span>500</span></p>
-                                <p className='card__price__uzs'>UZS</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="card__left">
-                            <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
-                            <img className='card__img' src={cardImages} alt="" />
-                        </div>
-
-                        <div className="card__right">
-                            <div className="card__right__30">
-                                <p>-30%</p>
-                            </div>
-                            <div className="card__name">
-                                <p className='card__right__asal'>“ASAL”  Мёд</p>
-                                <p className='card__price'>17.<span>500</span></p>
-                                <p className='card__price__uzs'>UZS</p>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                 </div>
 
