@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './App.scss'
 
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home/Home.js';
 import Shop from './Pages/Shop/Shop.js';
 import {Route,Routes } from 'react-router-dom';
 import Single from './Pages/Single/Single.js';
 import NotFound from './Pages/NotFound/NotFound.js';
 import Layout from './Layout/Layout.js';
-import About from './Pages/AboutUs/AboutUs.js'
+import About from './Pages/AboutUs/AboutUs.jsx'
 import Carrier from './Pages/Carrier/Carrier.js'
 import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
