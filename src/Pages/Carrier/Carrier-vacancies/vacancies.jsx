@@ -39,7 +39,7 @@ const vacancies = () => {
                         </div>
                     </div>
                     <div className="own-vacancies">
-                    <img src={own__img2} alt="" />
+                    <img src={own__img3} alt="" />
                         <div className="own-vacancies-right">
                             <p>Продавец кассир</p>
                             <div className="own-line"></div>
@@ -47,7 +47,7 @@ const vacancies = () => {
                         </div>
                     </div>
                     <div className="own-vacancies">
-                    <img src={own__img2} alt="" />
+                    <img src={own__img4} alt="" />
                         <div className="own-vacancies-right">
                             <p>Грузчик на склад</p>
                             <div className="own-line"></div>
@@ -55,7 +55,7 @@ const vacancies = () => {
                         </div>
                     </div>
                     <div className="own-vacancies">
-                    <img src={own__img2} alt="" />
+                    <img src={own__img5} alt="" />
                         <div className="own-vacancies-right">
                             <p>Водетель</p>
                             <div className="own-line"></div>
@@ -63,7 +63,7 @@ const vacancies = () => {
                         </div>
                     </div>
                     <div className="own-vacancies">
-                    <img src={own__img2} alt="" />
+                    <img src={own__img6} alt="" />
                         <div className="own-vacancies-right">
                             <p>Охранник</p>
                             <div className="own-line"></div>

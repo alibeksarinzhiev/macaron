@@ -27,15 +27,15 @@
     }
 }
 
-.boss__right__img{
+.choose__right__img{
     background: url(../imgs/Frame.png)center / cover no-repeat;
-    width: 459px;
+    width: 396.84px;
     height: 278px;
 }
 
 
 
-.boss__left{
+.choose__left{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,11 +57,13 @@
     .choose__page{
         display: flex;
         width: 128.84px;
-        justify-content: flex-start;
+        justify-content: space-between;
         span{
             font-size: 50px;
             display: flex;
+            color:#000;
             align-items: flex-end;
+            margin: 0 0 15px 0;
         }
         p{
             display: flex;

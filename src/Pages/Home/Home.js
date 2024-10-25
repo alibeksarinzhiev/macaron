@@ -1,11 +1,16 @@
 import React from 'react';
 import Banner from './Banner/Banner';
+import Card from '../../Components/Card/Card';
+import Button from '../../Components/Button/Button';
 
 const Home = () => {
     return (
         <>
-            <h1>HOME</h1>
+           
+           
             <Banner/>
+            <Button text={'homeBtn'}/>
+            
         </>
     );
 };

@@ -1,10 +1,14 @@
 import React from 'react';
+import RecipeBanner from './RecipeBanner/RecipeBanner';
 
 const Recipe = () => {
     return (
-        <div>
-            <h2>Recipe</h2>
-        </div>
+        <>
+          <RecipeBanner/>
+          <section className='recipe'></section>
+          <section className='popularRecipe'></section>
+          <section className='recipeQuestion'></section>
+        </>
     );
 };
 
