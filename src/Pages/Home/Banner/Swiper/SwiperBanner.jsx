@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import banner from '../image/баннер.png'
+import banner from '../Images/home-banner-1 1 (1).svg'
+import './SwiperBanner.scss'
 
 const SwiperBanner = () => {
     return (
@@ -11,10 +12,8 @@ const SwiperBanner = () => {
         <SwiperSlide><img src={banner} alt='banner'/></SwiperSlide>
         <SwiperSlide><img src={banner} alt='banner'/></SwiperSlide>
         <SwiperSlide><img src={banner} alt='banner'/></SwiperSlide>
-        <SwiperSlide><img src={banner} alt='banner'/></SwiperSlide>
-      
-      
-      </Swiper>
+        
+        </Swiper>
     );
 };
 
