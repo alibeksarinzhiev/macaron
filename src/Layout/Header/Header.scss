@@ -13,6 +13,7 @@
             width: 600px;
             height: 40px;
             border-right: none;
+            border: 1px solid black;
         }
         button{
             background: #e96023;
@@ -20,6 +21,8 @@
             height: 40px;
             border-radius: 0 20px 20px 0;
             border-left: none;
+            color: aliceblue;
+            border:  none;
         }
     }
     &__line{

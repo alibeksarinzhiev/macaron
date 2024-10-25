@@ -9,11 +9,11 @@ import NotFound from './Pages/NotFound/NotFound.js';
 import Layout from './Layout/Layout.js';
 import About from './Pages/AboutUs/AboutUs.js'
 import Carrier from './Pages/Carrier/Carrier.js'
-import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
 import Search from './Pages/Search/Search.js'
 import Special from './Pages/Special/Special.js'
+import  Main  from './Pages/News/Main.jsx';
 
 const App = () => {
    
@@ -26,7 +26,7 @@ const App = () => {
       <Route path='shop' element={<Shop/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='carrier' element={<Carrier/>}/>
-      <Route path='news' element={<News/>} />
+      <Route path='news' element={<Main/>} />
       <Route path='partners' element={<Partners/>}/>
       <Route path='recipe' element={<Recipe/>}/>
       <Route path='carrier' element={<Carrier/>}/>
