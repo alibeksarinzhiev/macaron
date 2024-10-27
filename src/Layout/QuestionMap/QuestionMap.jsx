@@ -1,5 +1,8 @@
 import React from 'react';
 import './QuestionMap.scss'
+import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
+
+
 
 
 const QuestionMap = () => {
@@ -21,7 +24,17 @@ const QuestionMap = () => {
                     </div>
     
                     <div className="question__map__right">
-                        
+                        <YMaps query={{ apikey: '30676071-86db-4ef1-b543-0d4e04ef5dc5' }}>
+                            <div style={{ width: '580px', height: '378px' }}>
+                              <Map 
+                                defaultState={{ center: [42.875985, 74.603672], zoom: 10 }} 
+                                width="100%" 
+                                height="100%"
+                              >
+                                <Placemark geometry={[55.751244, 37.618423]} />
+                              </Map>
+                            </div>
+                        </YMaps>
                     </div>
                 </div>
 

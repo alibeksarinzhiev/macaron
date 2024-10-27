@@ -43,16 +43,16 @@ const Header = () => {
                 <div className="header__bottom">
 
                     <ul className='header__bottom__left'>
-                        <Link className='header__bottom__left__nav'>ГЛАВНАЯ</Link>
-                        <Link className='header__bottom__left__nav'>О НАС</Link>
-                        <Link className='header__bottom__left__nav'>МАГАЗИНЫ</Link>
-                        <Link className='header__bottom__left__nav'>НОВОСТИ</Link>
+                        <Link to={''} className='header__bottom__left__nav'>ГЛАВНАЯ</Link>
+                        <Link to={'about'} className='header__bottom__left__nav'>О НАС</Link>
+                        <Link to={'shop'} className='header__bottom__left__nav'>МАГАЗИНЫ</Link>
+                        <Link to={'news'} className='header__bottom__left__nav'>НОВОСТИ</Link>
                         <Link className='header__bottom__left__nav'>ПОЛЕЗНОЕ</Link>
                     </ul>
 
                     <ul className='header__bottom__right'>
-                        <Link className='header__bottom__right__nav'>ДЛЯ ПАРТНЁРОВ</Link>
-                        <Link className='header__bottom__right__nav'>КАРЬЕРА</Link>
+                        <Link to={'partners'} className='header__bottom__right__nav'>ДЛЯ ПАРТНЁРОВ</Link>
+                        <Link to={'carrier'} className='header__bottom__right__nav'>КАРЬЕРА</Link>
                     </ul>
 
                 </div>
