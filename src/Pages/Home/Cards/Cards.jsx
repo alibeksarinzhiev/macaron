@@ -36,6 +36,7 @@ const Cards = () => {
                                 <p className='card__price__uzs'>{el.valute}</p>
                             </div>
                         </div>
+                      
                     </div>
                     ))}
                 </div>

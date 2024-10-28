@@ -4,23 +4,20 @@ import './App.scss'
 import Home from './Pages/Home/Home.jsx';
 import Shop from './Pages/Shop/Shop.jsx';
 import {Route,Routes } from 'react-router-dom';
-import Single from './Pages/Single/Single.js';
+import Single from './Pages/Single/Single.jsx';
 import NotFound from './Pages/NotFound/NotFound.js';
 import Layout from './Layout/Layout.jsx';
 import About from './Pages/AboutUs/AboutUs.jsx'
-<<<<<<< HEAD
-import Carrier from './Pages/Carrier/Carrier.js'
-=======
 import Carrier from './Pages/Carrier/Carrier.jsx'
->>>>>>> ca979b9c855e2c80e1b25986cbd78fc537f85bab
 import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
 import Search from './Pages/Search/Search.js'
-import Special from './Pages/Special/Special.js'
+import Special from './Pages/Special/Special.jsx'
 import axios from 'axios';
 import { getProducts } from './store/ProductsSlice/productsSlice.js';
 import {useDispatch } from 'react-redux';
+import Basket from './Pages/Basket.jsx';
 
 const App = () => {
 
@@ -52,6 +49,8 @@ const App = () => {
       <Route path='carrier' element={<Carrier/>}/>
       <Route path='search' element={<Search/>}/>
       <Route path='special' element={<Special/>}/>
+      <Route path='single/:id' element={<Single/>}/>
+      <Route path='basket' element={<Basket/>}/>
       </Route>
       <Route path='*' element={<NotFound/>}/>
     </Routes>
