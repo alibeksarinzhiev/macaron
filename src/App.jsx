@@ -2,13 +2,17 @@ import React, { useEffect, useState } from 'react';
 import './App.scss'
 
 import Home from './Pages/Home/Home.jsx';
-import Shop from './Pages/Shop/Shop.js';
+import Shop from './Pages/Shop/Shop.jsx';
 import {Route,Routes } from 'react-router-dom';
 import Single from './Pages/Single/Single.js';
 import NotFound from './Pages/NotFound/NotFound.js';
 import Layout from './Layout/Layout.jsx';
 import About from './Pages/AboutUs/AboutUs.jsx'
+<<<<<<< HEAD
+import Carrier from './Pages/Carrier/Carrier.js'
+=======
 import Carrier from './Pages/Carrier/Carrier.jsx'
+>>>>>>> ca979b9c855e2c80e1b25986cbd78fc537f85bab
 import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
