@@ -14,15 +14,31 @@ import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
 import Search from './Pages/Search/Search.js'
 import Special from './Pages/Special/Special.js'
+import axios from 'axios';
+import { getProducts } from './store/ProductsSlice/productsSlice.js';
+import {useDispatch } from 'react-redux';
 
 const App = () => {
+
   
+  const dispatch = useDispatch()
+  const[products,setProducts] = useState([])
+  console.log('as');
+
+  useEffect(()=>{
+   axios('http://localhost:3000/products')
+  .then(({data})=>dispatch(getProducts(data)))
+  },[])
+  
+
+ 
+
 
     return (
     <>
     <Routes>
       <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home/>}/>
+      <Route path='' element={<Home />}/>
       <Route path='shop' element={<Shop/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='carrier' element={<Carrier/>}/>
