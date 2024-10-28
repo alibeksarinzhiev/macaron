@@ -1,5 +1,4 @@
 import React from 'react';
-import './HrBanner.scss'
 import { Navigation } from 'swiper/modules';
 import banner from '../imgs/hr-banner.png'
 import { Swiper, SwiperSlide } from 'swiper/react';

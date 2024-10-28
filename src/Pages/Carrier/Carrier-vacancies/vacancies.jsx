@@ -12,7 +12,7 @@ const vacancies = () => {
         <section className='vacancies'>
             <div className="container">
                 <div className="pos-yellow">
-                    <h3>Свободные вакансии</h3>
+                    <h3>СВОБОДНЫЕ ВАКАНСИИ</h3>
                     <div className="FADF00"></div>
                 </div>
                 
