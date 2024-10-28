@@ -19,7 +19,7 @@ const Cards = () => {
                 </div>
                 
                 <div className="cards__box">
-                    {products.map((el)=>(
+                    {products.slice(0,6).map((el)=>(
                         <div className="card">
                         <div className="card__left">
                             <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
