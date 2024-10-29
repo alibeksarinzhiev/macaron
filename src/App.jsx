@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home.jsx';
 import Shop from './Pages/Shop/Shop.js';
 import {Route,Routes } from 'react-router-dom';
 import Single from './Pages/Single/Single.js';
-import NotFound from './Pages/NotFound/NotFound.js';
+import NotFound from './Pages/NotFound/NotFound.jsx';
 import Layout from './Layout/Layout.jsx';
 import About from './Pages/AboutUs/AboutUs.jsx'
 import Carrier from './Pages/Carrier/Carrier.js'
