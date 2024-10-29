@@ -77,6 +77,18 @@
             "isPromotion":true,
             "isNew":true,
             "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+        },
+        {
+            "id":7,
+            "title":"“ASAL”  Мёд",
+            "price":38,
+            "pricesmall":900,
+            "valute":"som",
+            "sale":30,
+            "image":"./images/мед 1.svg",
+            "isPromotion":true,
+            "isNew":true,
+            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
         }
     ],
     "recipe":[],

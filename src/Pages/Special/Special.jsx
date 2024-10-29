@@ -1,26 +1,25 @@
 import React from 'react';
-import './Cards.scss'
-import cardImages from './CardsImg/кукуруза 1 (1).svg'
-import {useSelector } from 'react-redux';
+import './Special.scss'
+import { useSelector } from 'react-redux';
+import { Link,useNavigate } from 'react-router-dom';
 
-
-const Cards = () => {
-
+const Special = () => {
     const products = useSelector((state)=>state.productsSlice.data)
+    const navigate = useNavigate()
 
-    
     return (
-        <section className='cards'>
-            <div className="cards__container container">
-
-                <div className="cards__name">
-                    <h3 className='cards__name__h3'>СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</h3>
-                    <p className='cards__name__p'>*ЦЕНА АКТУАЛЬНА НА ОПРЕДЕЛЕННЫЙ СРОК</p>
-                </div>
-                
-                <div className="cards__box">
-                    {products.slice(0,6).map((el)=>(
-                        <div className="card">
+        <section className='special'>
+            <div className="container">
+                <h2>Специальные предложения</h2>
+                <ul>
+                    <li>Акции</li>
+                    <li>Новинки</li>
+                    <li>Все</li>
+                </ul>
+                <div className="special__cards">
+                    {products.map((el)=>(
+                        <div className="special__card">
+                            <div className="card">
                         <div className="card__left">
                             <h4 className='card__left__h4'>АКЦИОННЫЙ ТОВАР</h4>
                             <img className='card__img' src={el.image} alt="" />
@@ -36,26 +35,14 @@ const Cards = () => {
                                 <p className='card__price__uzs'>{el.valute}</p>
                             </div>
                         </div>
-                      
+                        </div>
+                        <button onClick={()=>navigate(`/single/${el.id}`)}>Подробнее</button>
                     </div>
                     ))}
                 </div>
-
             </div>
         </section>
     );
 };
 
-export default Cards;
-
-
-
-
-
-
-
-
-
-
-
-
+export default Special;

@@ -53,6 +53,7 @@ const Header = () => {
                     <ul className='header__bottom__right'>
                         <Link to={'partners'} className='header__bottom__right__nav'>ДЛЯ ПАРТНЁРОВ</Link>
                         <Link to={'carrier'} className='header__bottom__right__nav'>КАРЬЕРА</Link>
+                        <Link to={'basket'} className='header__bottom__right__nav'>Корзина</Link>
                     </ul>
 
                 </div>
