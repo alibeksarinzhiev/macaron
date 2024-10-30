@@ -1,0 +1,29 @@
+.section__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 34px;
+}
+.section__wrapper img {
+    width: 1000px;
+    height: 895;
+    &__left{
+        background: #FAFAFA;
+    }
+}
+
+.open1 {
+    font-family: Circe;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44.22px;
+    text-align: left;
+}
+.open2 {
+    font-family: Circe;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.7px;
+    text-align: left;
+    margin-top: 37px;
+}

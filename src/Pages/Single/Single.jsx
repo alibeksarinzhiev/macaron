@@ -7,7 +7,12 @@ import { add } from '../../store/BasketSlice/BasketSlice';
 
 const Single = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
+
     let arr = []
+    // test
 
    const dispatch  = useDispatch()
    
@@ -26,6 +31,7 @@ const Single = () => {
                 <h2>{product.title}</h2>
                 <p>{product.description}</p>
                 <button onClick={()=>dispatch(add({...product,count:1}))}>в корзину</button>
+                
             </div>
         </section>
     );

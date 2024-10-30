@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Special.scss'
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Slider from './Slider/Slider'
 
 const Special = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
+
     const products = useSelector((state)=>state.productsSlice.data)
     const navigate = useNavigate()
 

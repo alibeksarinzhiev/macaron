@@ -22,7 +22,3 @@ export default productsSlice.reducer
 
 
 
-// let func = (arr)=>{
-
-// }
-// console.log(func([1,2,3,4]));

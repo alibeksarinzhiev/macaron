@@ -21,6 +21,8 @@
     margin-bottom: 18px;
 }
 
+
+
 header .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -41,7 +43,7 @@ header .container {
 }
 
 .header__top__logo {
-    padding-right: 194px;
+    padding-right: 175px;
 }
 
 .header__top__number {
@@ -163,3 +165,11 @@ header .container {
     color: #e96023;
     transition: .3s;
 }
+
+.header__top__basket img {
+    max-width:20px;
+    height: 20px;
+    margin-left: 18px;
+
+}
+
