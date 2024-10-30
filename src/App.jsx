@@ -11,7 +11,7 @@ import About from './Pages/AboutUs/AboutUs.jsx'
 import Carrier from './Pages/Carrier/Carrier.js'
 import News from './Pages/News/News.js'
 import Partners from './Pages/Partners/Partners.js'
-import Recipe from './Pages/Recipe/Recipe.js'
+import Recipe from './Pages/Recipe/Recipe.jsx'
 import Search from './Pages/Search/Search.js'
 import Special from './Pages/Special/Special.js'
 import axios from 'axios';
