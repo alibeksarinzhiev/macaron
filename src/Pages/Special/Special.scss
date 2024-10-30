@@ -1,10 +1,11 @@
 .special{
     margin-top: 193px;
+    position: relative;
     &__cards{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 60px;
     button{
         width: 190px;
         height: 40px;
@@ -20,4 +21,87 @@
         cursor: pointer;
     }
     }
+    &__name__top{
+        font-weight: 800;
+        font-size: 26px;
+        text-transform: uppercase;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    &__name__top::before{
+        position: absolute;
+        content: '';
+        width: 433px;
+    height: 17px;
+    background: #fadf00;
+    z-index: -1;
+    margin-top: 15px;
+    margin-left: 23px;
+    }
+    &__name__ul{
+        position: relative;
+display: flex;
+gap: 100px;
+font-weight: 400;
+font-size: 26px;
+line-height: 0.879;
+width: 500px;
+border-bottom:2px solid #000 ;
+margin-bottom: 50px;
+    }
+    &__name__link{
+    padding-bottom: 16px;
+
+    }
+    &__name__link:active{
+        text-decoration: underline;
+    }
+    &__bottom-box{
+    width: 100%;
+    max-height: 100%;
+    }
+    &__bottom-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.004;
+        color: #000;
+        margin-bottom: 18px;
+        padding: 34px 0 18px;
+        
+    }
+    &__bottom-text{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.654;
+        margin-bottom: 20px;
+font-weight: 300;
+font-size: 14px;
+line-height: 165%;
+width: 380px;
+    }
+    .special__nav-list{
+        position: relative;
+        display: flex;
+        gap: 14px;
+        margin-top: 60px;
+    }
+    &__list-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #e96023;
+        border-radius: 5px;
+        width: 25px;
+        height: 25px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #e96023;
+        padding-top: 3px;
+    }
+    &__list-items:active, &__list-items:hover{
+        background: #30922f;
+        border: none;
+        color: #fff;
+    }
+
 }

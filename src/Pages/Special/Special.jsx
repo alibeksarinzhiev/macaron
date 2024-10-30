@@ -1,7 +1,8 @@
 import React from 'react';
 import './Special.scss'
 import { useSelector } from 'react-redux';
-import { Link,useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import Slider from './Slider/Slider'
 
 const Special = () => {
     const products = useSelector((state)=>state.productsSlice.data)
@@ -9,12 +10,13 @@ const Special = () => {
 
     return (
         <section className='special'>
+             <Slider/>
             <div className="container">
-                <h2>Специальные предложения</h2>
-                <ul>
-                    <li>Акции</li>
-                    <li>Новинки</li>
-                    <li>Все</li>
+                <h2 className='special__name__top'>Специальные предложения</h2>
+                <ul className='special__name__ul'>
+                    <li className='special__name__link'>Акции</li>
+                    <li className='special__name__link'>Новинки</li>
+                    <li className='special__name__link'>Все</li>
                 </ul>
                 <div className="special__cards">
                     {products.map((el)=>(
@@ -27,7 +29,7 @@ const Special = () => {
 
                         <div className="card__right">
                             <div className="card__right__30">
-                                <p>{el.sale}%</p>
+                                <p>-{el.sale}%</p>
                             </div>
                             <div className="card__name">
                                 <p className='card__right__asal'>{el.title}</p>
@@ -36,10 +38,24 @@ const Special = () => {
                             </div>
                         </div>
                         </div>
-                        <button onClick={()=>navigate(`/single/${el.id}`)}>Подробнее</button>
+                        <div className="special__bottom-box">
+                        <h3 className="special__bottom-title">{el.title}</h3>
+                        <p className="special__bottom-text">{el.description}</p>
+                        <button onClick={()=>navigate(`/single/${el.id}`)}>Подробнее...</button>
+                        </div>
                     </div>
                     ))}
+          <ul className="special__nav-list">
+          <li className="special__list-items">1</li>
+          <li className="special__list-items">2</li>
+          <li className="special__list-items">3</li>
+          <li className="special__list-items">4</li>
+          <li className="special__list-items">5</li>
+          <li className="special__list-items">6</li>
+        </ul>
+     
                 </div>
+      
             </div>
         </section>
     );
