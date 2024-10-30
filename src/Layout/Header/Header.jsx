@@ -5,8 +5,9 @@ import logo from './images/HeaderLogo.svg'
 import facebook from './images/HeaderFacebook.svg'
 import telegram from './images/HeaderTelegram.svg'
 import inst from './images/HeaderInstagram 2.svg'
+import iconbasket from './images/shopping-cart.svg'
 
-const Header = () => {
+const Header = ({itemCount}) => {
 
     const [scrolled, setScrolled] = useState(false);
 
@@ -35,6 +36,8 @@ const Header = () => {
                         <button className='header__top__btn__input'>Поиск</button>
                     </form>
                     <p className='header__top__ru/en'>Ru</p>
+                    <Link to={'basket'} className='header__top__basket'><img src={iconbasket} alt="" /></Link>
+                    <div className="header__top__basket__red"></div>
 
                 </div>
 
@@ -43,16 +46,16 @@ const Header = () => {
                 <div className="header__bottom">
 
                     <ul className='header__bottom__left'>
-                        <Link className='header__bottom__left__nav'>ГЛАВНАЯ</Link>
-                        <Link className='header__bottom__left__nav'>О НАС</Link>
-                        <Link className='header__bottom__left__nav'>МАГАЗИНЫ</Link>
-                        <Link className='header__bottom__left__nav'>НОВОСТИ</Link>
+                        <Link to={''} className='header__bottom__left__nav'>ГЛАВНАЯ</Link>
+                        <Link to={'about'} className='header__bottom__left__nav'>О НАС</Link>
+                        <Link to={'shop'} className='header__bottom__left__nav'>МАГАЗИНЫ</Link>
+                        <Link to={'news'} className='header__bottom__left__nav'>НОВОСТИ</Link>
                         <Link className='header__bottom__left__nav'>ПОЛЕЗНОЕ</Link>
                     </ul>
 
                     <ul className='header__bottom__right'>
-                        <Link className='header__bottom__right__nav'>ДЛЯ ПАРТНЁРОВ</Link>
-                        <Link className='header__bottom__right__nav'>КАРЬЕРА</Link>
+                        <Link to={'partners'} className='header__bottom__right__nav'>ДЛЯ ПАРТНЁРОВ</Link>
+                        <Link to={'carrier'} className='header__bottom__right__nav'>КАРЬЕРА</Link>
                     </ul>
 
                 </div>

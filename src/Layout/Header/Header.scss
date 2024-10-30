@@ -21,6 +21,8 @@
     margin-bottom: 18px;
 }
 
+
+
 header .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -41,7 +43,7 @@ header .container {
 }
 
 .header__top__logo {
-    padding-right: 194px;
+    padding-right: 175px;
 }
 
 .header__top__number {
@@ -108,13 +110,63 @@ header .container {
     font-size: 15px;
     font-family: "Circe", sans-serif;
     color: black;
+    position: relative;
 }
 
+.header__bottom__left__nav::after {
+    content: "";
+    position: absolute;
+    background: #e96023;
+    width: 0;
+    height: 1px;
+    left: 0;
+    top: 18px;
+    transition: .4s;
+    z-index: 1;
+}
 
+.header__bottom__left__nav:hover {
+    color: #e96023;
+    transition: .3s;
+}
+
+.header__bottom__left__nav:hover::after {
+    width: 100%;
+}
 
 .header__bottom__right__nav {
     font-weight: 600;
     font-size: 15px;
     font-family: "Circe", sans-serif;
     color: black;
+    position: relative;
 }
+
+.header__bottom__right__nav::after {
+    content: "";
+    position: absolute;
+    background: #e96023;
+    width: 0;
+    height: 1px;
+    left: 0;
+    top: 18px;
+    transition: .4s;
+    z-index: 1;
+}
+
+.header__bottom__right__nav:hover::after {
+    width: 100%;
+}
+
+.header__bottom__right__nav:hover {
+    color: #e96023;
+    transition: .3s;
+}
+
+.header__top__basket img {
+    max-width:20px;
+    height: 20px;
+    margin-left: 18px;
+
+}
+
