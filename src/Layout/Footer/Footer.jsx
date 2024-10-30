@@ -4,23 +4,30 @@ import instagram from "../Footer/image-footer/instagram 1.svg"
 import facebook from "../Footer/image-footer/facebook 1.svg"
 import telegram from "../Footer/image-footer/telegram 1.svg"
 import "./Footer.scss"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-<<<<<<< HEAD
+
         <footer className='footer'>
             <div className="footer__container container">
 
                 <div className="footer__top">
-                    <img className='footer__top__logo' src={footerLogo} alt="" />
+                    <img className='footer__top__logo' src={logo} alt="" />
 
                     <div className="footer__top__left">
                         <h4 className='footer__top__left__name'>Потребителям:</h4>
                         <ul className='footer__top__left__nav'>
+
                             <li className='footer__top__left__nav__li'>Магазины</li>
                             <li className='footer__top__left__nav__li'>Новости</li>
-                            <li className='footer__top__left__nav__li'><Link to="/special">Специальные предложения</Link></li>
+                            <li className='footer__top__left__nav__li'><Link to="/special" className='footer__top__left__nav__link'>Специальные предложения</Link></li>
                             <li className='footer__top__left__nav__li'>Рецепты</li>
+                            <li className='footer__top__left__nav__li'><Link to="/shop">Магазины</Link></li>
+                            <li className='footer__top__left__nav__li'> <Link to="/news">Новости</Link></li>
+                            <li className='footer__top__left__nav__li'><Link to="/special">Специальные предложения</Link></li>
+                            <li className='footer__top__left__nav__li'><Link to="/recipe">Рецепты</Link></li>
+
                         </ul>
                     </div>
 
@@ -43,8 +50,8 @@ const Footer = () => {
                         </ul>
                     </div>
 
-=======
-        <footer>
+
+        </div>
             <div className="container">
                 <div className="footer__wrapper">
                     <div className="logo">
@@ -58,7 +65,7 @@ const Footer = () => {
                         <li>Специальные предложения</li>
                         <li>Рецепты</li>
                     </ul>
->>>>>>> 1fdc652bacba9bc7a268969a49b738cbefa422cc
+
                 </div>
                 <div className="center">
                     <ul>
@@ -88,6 +95,7 @@ const Footer = () => {
                     <img src={facebook} alt="" />
                     <img src={telegram} alt="" />
                 </div>
+            </div>
             </div>
             </div>
         </footer>

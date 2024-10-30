@@ -6,13 +6,13 @@ import Shop from './Pages/Shop/Shop.jsx';
 import {Route,Routes } from 'react-router-dom';
 import Single from './Pages/Single/Single.jsx';
 import NotFound from './Pages/NotFound/NotFound.jsx';
-import Layout from './Layout/Layout.js';
-import About from './Pages/AboutUs/AboutUs.js'
-import Carrier from './Pages/Carrier/Carrier.js'
+import Layout from './Layout/Layout.jsx';
+import About from './Pages/AboutUs/AboutUs.jsx'
+import Carrier from './Pages/Carrier/Carrier.jsx'
 import Partners from './Pages/Partners/Partners.js'
 import Recipe from './Pages/Recipe/Recipe.js'
 import Search from './Pages/Search/Search.js'
-import Special from './Pages/Special/Special.js'
+import Special from './Pages/Special/Special.jsx'
 import  Main  from './Pages/News/Main.jsx';
 import axios from 'axios';
 import { getProducts } from './store/ProductsSlice/productsSlice.js';
