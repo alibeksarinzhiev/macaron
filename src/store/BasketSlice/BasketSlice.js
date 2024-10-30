@@ -22,11 +22,20 @@ export const basketSlice = createSlice({
             else{
              state.basket.push(action.payload)
             }
+        },
+        plusCount:(state,action)=>{
+            state.basket = state.basket.map((el)=>{
+                if(el.id === action.payload.id){
+                    return {...el,count:el.count+1}
+                }else{
+                    return el
+                }
+            })
         }
     }
 
 })
-export const {add} =basketSlice.actions
+export const {add,plusCount} =basketSlice.actions
 export default basketSlice.reducer
 
 

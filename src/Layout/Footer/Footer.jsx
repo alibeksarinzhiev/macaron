@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from "../Footer/image-footer/логотип 2.svg"
+import footerLogo from "../Footer/image-footer/логотип 2.svg"
 import instagram from "../Footer/image-footer/instagram 1.svg"
 import facebook from "../Footer/image-footer/facebook 1.svg"
 import telegram from "../Footer/image-footer/telegram 1.svg"
 import "./Footer.scss"
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
-<<<<<<< HEAD
+
         <footer className='footer'>
             <div className="footer__container container">
 
@@ -43,22 +44,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-=======
-        <footer>
-            <div className="container">
-                <div className="footer__wrapper">
-                    <div className="logo">
-                        <img src={logo} alt="" />
-                    </div>
-                <div className="h3">
-                    <h3>Потребителям:</h3>
-                    <ul className='ul-1'>
-                        <li>Магазины</li>
-                        <li>Новости</li>
-                        <li>Специальные предложения</li>
-                        <li>Рецепты</li>
-                    </ul>
->>>>>>> 1fdc652bacba9bc7a268969a49b738cbefa422cc
+
                 </div>
                 <div className="center">
                     <ul>
@@ -89,7 +75,7 @@ const Footer = () => {
                     <img src={telegram} alt="" />
                 </div>
             </div>
-            </div>
+        
         </footer>
     );
 };
