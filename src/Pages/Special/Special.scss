@@ -1,0 +1,23 @@
+.special{
+    margin-top: 193px;
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    row-gap: 20px;
+    button{
+        width: 190px;
+        height: 40px;
+        border-radius: 27px;
+        color: #e96023;
+        border: 2px solid #e96023;
+        background: white;
+    }
+    button:hover{
+        color: white;
+        border: none;
+        background: green;
+        cursor: pointer;
+    }
+    }
+}

@@ -1,0 +1,142 @@
+.cards .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards {
+  position: relative;
+}
+
+.cards__name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  margin-bottom: 40px;
+}
+
+.cards__name__h3 {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Circe", sans-serif;
+  position: relative;
+}
+
+.cards__name__h3::before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 20px;
+  background: #fadf00;
+  top: 16px;
+  right: -30px;
+  z-index: -1;
+}
+
+.cards__name__p {
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Circe", sans-serif;
+}
+
+// .cards__name__p::after {
+//   content: '';
+//   position: absolute;
+//   background-image: url('./CardsImg/арбуз\ 1.svg');
+//   width: 429px;
+//   height: 556px;
+//   top: 0;
+//   left: 0;
+//   z-index: 10;
+// }
+
+.cards__box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 392px;
+  height: 311px;
+  background-color: #f7f7f7;
+  display: flex;
+}
+
+.card__left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 24px;
+  padding-left: 27px;
+}
+
+.card__left__h4 {
+  width: 154px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 105%;
+  color: #30922f;
+  font-family: "Circe", sans-serif;
+}
+
+.card__img {
+  padding-left: 30px;
+  width: 166px;
+  height: 209px;
+}
+
+.card__right {
+  display: flex;
+  flex-direction: column; 
+  gap: 125px;
+}
+
+
+.card__right__30 {
+  width: 70px;
+  height: 63px;
+  background-color: #30922f;
+  padding-left: 7px;
+  padding-top: 15px;
+  margin-left: 95px;
+  font-weight: 800;
+  font-size: 22px;
+  color: #fff;
+  font-family: "Circe", sans-serif;
+}
+
+.card__right__asal {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 105%;
+  color: #30922f;
+  font-family: "Circe", sans-serif;
+  margin-left: 58px;
+}
+
+.card__price {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 105%;
+  color: #e96023;
+  padding-left: 26px;
+  margin-left: 33px;
+}
+
+.card__price span {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 105%;
+  color: #e96023;
+  padding-left: 3px;
+  
+}
+
+.card__price__uzs {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 105%;
+  color: #30922f;
+  padding-left: 75px;
+  margin-left: 52px;
+}
