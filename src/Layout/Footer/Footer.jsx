@@ -18,19 +18,19 @@ const Footer = () => {
                     <div className="footer__top__left">
                         <h4 className='footer__top__left__name'>Потребителям:</h4>
                         <ul className='footer__top__left__nav'>
-                            <li className='footer__top__left__nav__li'>Магазины</li>
-                            <li className='footer__top__left__nav__li'>Новости</li>
+                            <li className='footer__top__left__nav__li'><Link to="/shop">Магазины</Link></li>
+                            <li className='footer__top__left__nav__li'> <Link to="/news">Новости</Link></li>
                             <li className='footer__top__left__nav__li'><Link to="/special">Специальные предложения</Link></li>
-                            <li className='footer__top__left__nav__li'>Рецепты</li>
+                            <li className='footer__top__left__nav__li'><Link to="/recipe">Рецепты</Link></li>
                         </ul>
                     </div>
 
                     <div className="footer__top__center">
                         <ul className='footer__top__center__nav'>
-                            <li className='footer__top__center__nav__li'>Социальные проекты</li>
-                            <li className='footer__top__center__nav__li'>О нас</li>
-                            <li className='footer__top__center__nav__li'>Для партнёрства</li>
-                            <li className='footer__top__center__nav__li'>Карьера</li>
+                            <li className='footer__top__center__nav__li'><Link>Социальные проекты</Link></li>
+                            <li className='footer__top__center__nav__li'><Link to="/about">О нас</Link></li>
+                            <li className='footer__top__center__nav__li'><Link to="/partners">Для партнёрства</Link></li>
+                            <li className='footer__top__center__nav__li'><Link to="/carrier">Карьера</Link></li>
                         </ul>
                     </div>
 

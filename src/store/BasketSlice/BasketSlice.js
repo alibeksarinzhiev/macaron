@@ -28,3 +28,10 @@ export const basketSlice = createSlice({
 })
 export const {add} =basketSlice.actions
 export default basketSlice.reducer
+
+
+
+
+
+
+

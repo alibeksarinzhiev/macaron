@@ -151,7 +151,6 @@ const NotFound = () => {
 
     return (
         <section className='spider'>
-            <h1>404 NotFound</h1>
             <canvas ref={canvasRef}/>
         </section>
     );
