@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from "../Footer/image-footer/логотип 2.svg"
+import footerLogo from "../Footer/image-footer/логотип 2.svg"
 import instagram from "../Footer/image-footer/instagram 1.svg"
 import facebook from "../Footer/image-footer/facebook 1.svg"
 import telegram from "../Footer/image-footer/telegram 1.svg"
 import "./Footer.scss"
-import { Link } from 'react-router-dom';
-
+import {Link} from 'react-router-dom'
 const Footer = () => {
     return (
 
@@ -13,16 +12,13 @@ const Footer = () => {
             <div className="footer__container container">
 
                 <div className="footer__top">
-                    <img className='footer__top__logo' src={logo} alt="" />
+                    <img className='footer__top__logo' src={footerLogo} alt="" />
 
                     <div className="footer__top__left">
                         <h4 className='footer__top__left__name'>Потребителям:</h4>
                         <ul className='footer__top__left__nav'>
 
-                            <li className='footer__top__left__nav__li'>Магазины</li>
-                            <li className='footer__top__left__nav__li'>Новости</li>
-                            <li className='footer__top__left__nav__li'><Link to="/special" className='footer__top__left__nav__link'>Специальные предложения</Link></li>
-                            <li className='footer__top__left__nav__li'>Рецепты</li>
+                        
                             <li className='footer__top__left__nav__li'><Link to="/shop">Магазины</Link></li>
                             <li className='footer__top__left__nav__li'> <Link to="/news">Новости</Link></li>
                             <li className='footer__top__left__nav__li'><Link to="/special">Специальные предложения</Link></li>
@@ -51,38 +47,14 @@ const Footer = () => {
                     </div>
 
 
-        </div>
-            <div className="container">
-                <div className="footer__wrapper">
-                    <div className="logo">
-                        <img src={logo} alt="" />
-                    </div>
-                <div className="h3">
-                    <h3>Потребителям:</h3>
-                    <ul className='ul-1'>
-                        <li>Магазины</li>
-                        <li>Новости</li>
-                        <li>Специальные предложения</li>
-                        <li>Рецепты</li>
-                    </ul>
+
 
                 </div>
                 <div className="center">
-                    <ul>
-                        <li>Социальные проекты</li>
-                        <li>О нас</li>
-                        <li>Для партнёрства</li>
-                        <li>Карьера</li>
-                    </ul>
+                
                 </div>
                 <div className="h3-2">
-                    <h3>Партнёрам:</h3>
-                    <ul className='ul_2'>
-                        <li>Для партнёров</li>
-                        <li>Каталог</li>
-                        <li>Анкета для HR</li>
-                        <li>Обратная связь</li>
-                    </ul>
+                  
                 </div>
                 </div>
                 <div className='line'></div>
@@ -96,8 +68,7 @@ const Footer = () => {
                     <img src={telegram} alt="" />
                 </div>
             </div>
-            </div>
-            </div>
+        
         </footer>
     );
 };

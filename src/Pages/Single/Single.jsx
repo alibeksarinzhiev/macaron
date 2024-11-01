@@ -26,12 +26,19 @@ const Single = () => {
     },[])
     return (
         <section className='single'>
-            <div className="container">
-                <img src={`../${product.image}`} alt="" />
-                <h2>{product.title}</h2>
-                <p>{product.description}</p>
+            <div className=" container">
+                <div className="single__content">
+                <div className="single__content-left">
+                <img className='single__content-img' src={`../${product.image}`} alt="" />
+                </div>
+                   <div className="single__content-right">
+                <h2 className='single__content-title'>{product.title}</h2>
+                <p className='single__content-price'>{product.price}.<span>{product.pricesmall}</span></p>
+                <p className='single__content-valute'>{product.valute}</p>
+                <p className='single__content-des' >{product.description}</p>
                 <button onClick={()=>dispatch(add({...product,count:1}))}>в корзину</button>
-                
+                </div>
+                </div>
             </div>
         </section>
     );

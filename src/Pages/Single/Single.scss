@@ -1,3 +1,60 @@
 .single{
-    margin-top: 193px;
-}
+    margin-top: 220px;
+    &__content{
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid gray;
+        background: #E8E8E8;
+        margin: 0 30px 0 40px;
+        padding: 30px 0 30px;
+    }
+   &__content-img{
+    width: 260%;
+   }
+   button{
+        width: 190px;
+        height: 40px;
+        border-radius: 27px;
+        color: #e96023;
+        border: 2px solid #e96023;
+        background: white;
+        margin: 40px 0 0 100px;
+    }
+    button:hover{
+        color: white;
+        border: none;
+        background: green;
+        cursor: pointer;
+    }
+
+  
+    &__content-title{
+       font-weight: 900px;
+       font-size: 65px;
+       margin-top: 30px;
+
+    }
+    &__content-price{
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 105%;
+        color: #e96023;
+        padding-left: 26px;
+        margin-left: 53px;
+        margin-top: 40px;
+    }
+    &__content-des{
+        width: 400px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &__content-valute{
+        font-size: 58px;
+        line-height: 105%;
+        color: #30922f;
+        padding-left: 165px;
+        margin-left: 52px;
+    }
+   }
+  
+  

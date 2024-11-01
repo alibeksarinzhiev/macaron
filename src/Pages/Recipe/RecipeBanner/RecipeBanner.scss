@@ -1,0 +1,19 @@
+.recipeBanner{
+    margin-top: 200px;
+    &__content{
+        img{
+            width: 100%;
+            filter: brightness(40%)
+        }
+        h2{
+            color: #FFFFFF;
+            font-size: 75px;
+            max-width: 581px;
+            font-weight: 400;
+            position: absolute;
+            top: 100px;
+            left: 280px;
+            z-index: 5;
+        }
+    }
+}

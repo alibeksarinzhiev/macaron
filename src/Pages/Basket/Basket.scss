@@ -103,3 +103,13 @@
     font-weight: 700;
     font-size: 30px;
 }
+.basket__box__center{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    button{
+        width: 120px;
+        height: 40px;
+        font-size: 40px;
+    }
+}

@@ -10,7 +10,7 @@ import Layout from './Layout/Layout.jsx';
 import About from './Pages/AboutUs/AboutUs.jsx'
 import Carrier from './Pages/Carrier/Carrier.jsx'
 import Partners from './Pages/Partners/Partners.js'
-import Recipe from './Pages/Recipe/Recipe.js'
+import Recipe from './Pages/Recipe/Recipe.jsx'
 import Search from './Pages/Search/Search.js'
 import Special from './Pages/Special/Special.jsx'
 import  Main  from './Pages/News/Main.jsx';
