@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    data:[]
+    data:[],
+    search:[]
 }
 
 
@@ -11,11 +12,16 @@ export const productsSlice = createSlice({
     reducers:{
         getProducts:(state,action)=>{
             state.data = action.payload
+        },
+        searchProducts:(state,action)=>{
+            state.search = state.data.filter((el)=>{
+                return el.title.toUpperCase().includes(action.payload.toUpperCase())
+            })
         }
     }
 })
 
-export const {getProducts} = productsSlice.actions
+export const {getProducts,searchProducts} = productsSlice.actions
 
 export default productsSlice.reducer
 

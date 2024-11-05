@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Basket.scss'
 import { useSelector } from 'react-redux';
-import { plusCount } from '../../store/BasketSlice/BasketSlice';
+import { plusCount,minusCount,basketDel } from '../../store/BasketSlice/BasketSlice';
 import { useDispatch } from 'react-redux';
-
-
 
 const Basket = () => {
     const dispatch = useDispatch()
@@ -22,6 +20,12 @@ const Basket = () => {
         <section className='basket'>
             <div className="basket__container container">
                 <h2 className='basket__name'>КОРЗИНА</h2>
+                <button onClick={()=>dispatch(basketDel())}>Удалить все</button>
+                <h2>Итог {basket.reduce((acc,el)=>{
+                    let price = `${el.price}.${el.pricesmall}`
+                    console.log(price)
+                    return acc + el.count * price
+                },0)}</h2>
                 {basket.length > 0 ? (
                   basket.map((el) => (
                 <div className="basket__box">
@@ -35,7 +39,7 @@ const Basket = () => {
                     </div>
                     <div className="basket__box__center">
                         <button onClick={()=>dispatch(plusCount(el))}>+</button>
-                        <button>-</button>
+                        <button onClick={()=>dispatch(minusCount(el))}>-</button>
                     </div>
                     <div className="basket__box__right">
                         <div className="basket__box__right__prux">
