@@ -45,30 +45,20 @@ const Footer = () => {
                             <li className='footer__top__right__nav__li'>Обратная связь</li>
                         </ul>
                     </div>
-
-
-
-
-                </div>
-                <div className="center">
-                
-                </div>
-                <div className="h3-2">
-                  
-                </div>
                 </div>
                 <div className='line'></div>
-            <div className="footer__end">
-                <div className="footer__left">
-                <p>Сайт разработан Division Marketing Agency</p>
-                </div>
-                <div className="footer_right">
-                    <img src={instagram} alt="" />
-                    <img src={facebook} alt="" />
-                    <img src={telegram} alt="" />
+
+                <div className="footer__end">
+                    <div className="footer__left">
+                       <p className='footer__left__bottom__text'>Сайт разработан Division Marketing Agency</p>
+                    </div>
+                    <div className="footer_right">
+                        <img src={instagram} alt="" />
+                        <img src={facebook} alt="" />
+                        <img src={telegram} alt="" />
+                    </div>
                 </div>
             </div>
-        
         </footer>
     );
 };

@@ -3,7 +3,7 @@
     width: 100%;
     top: 0;
     background-color: white;
-    z-index: 100;
+    z-index: 200;
     transition: box-shadow .3s;
 }
 
@@ -184,11 +184,20 @@ header .container {
 }
 .header__searchBox{
     position: absolute;
-    width:800px;
-    max-height: 300px;
+    width:580px;
+    max-height: 200px;
     background: white;
     overflow-y: scroll;
-    top: 100px;
-    left: 30%;
+    top: 66px;
+    left: 613px;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-radius: 17px 0 17px 17px;
+    
 }
+
+.header__searchBox::-webkit-scrollbar {
+    width: 0;
+  }
 

@@ -34,6 +34,10 @@
     padding-top: 14px;
 }
 
+.footer__top__left__nav__li a {
+    color: #8d8d8d;
+}
+
 .footer__top__center__nav {
     padding-top: 38px;
     display: flex;
@@ -113,7 +117,7 @@
 }
 
 .line {
-    width: 1400px;
+    width: 1200px;
     height: 0px;
     top: 212px;
     left: 2px;
@@ -132,5 +136,10 @@
 .footer_right{
     display: flex;
     gap: 10px;
+    margin-bottom: 17px;
+}
+
+.footer__left__bottom__text {
+    margin-bottom: 10px;
 }
 
