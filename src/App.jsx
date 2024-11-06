@@ -18,6 +18,7 @@ import axios from 'axios';
 import { getProducts } from './store/ProductsSlice/productsSlice.js';
 import {useDispatch } from 'react-redux';
 import Basket from './Pages/Basket/Basket.jsx';
+import Register from './Pages/Register/Register.jsx';
 
 const App = () => {
 
@@ -52,6 +53,7 @@ const App = () => {
       <Route path='special' element={<Special/>}/>
       <Route path='single/:id' element={<Single/>}/>
       <Route path='basket' element={<Basket/>}/>
+      <Route path='register' element={<Register/>}/>
       </Route>
       <Route path='*' element={<NotFound/>}/>
     </Routes>

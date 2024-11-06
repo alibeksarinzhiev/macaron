@@ -1,120 +1,166 @@
 {
-    "users":[],
-    "products":[
-        {
-            "id":1,
-            "title":"“KIDZO”  Мороженое",
-            "price":17,
-            "pricesmall":500,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/Kuk.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-
-        {
-            "id":2,
-            "title":"“La” Бумага",
-            "price":20,
-            "pricesmall":400,
-            "valute":"som",
-            "sale":25,
-            "image":"./images/бумага.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-
-        {
-            "id":3,
-            "title":"“ASAL”  Мёд",
-            "price":38,
-            "pricesmall":900,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/мед 1.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-
-        {
-            "id":4,
-            "title":"“KIDZO”  Мороженое",
-            "price":17,
-            "pricesmall":500,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/Kuk.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-
-        {
-            "id":5,
-            "title":"“La” Бумага",
-            "price":20,
-            "pricesmall":400,
-            "valute":"som",
-            "sale":25,
-            "image":"./images/бумага.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-
-        {
-            "id":6,
-            "title":"“ASAL”  Мёд",
-            "price":38,
-            "pricesmall":900,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/мед 1.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-        {
-            "id":7,
-            "title":"“ASAL”  Мёд",
-            "price":38,
-            "pricesmall":900,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/мед 1.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-        {
-            "id":8,
-            "title":"“ASAL”  Мёд",
-            "price":38,
-            "pricesmall":900,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/мед 1.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        },
-        {
-            "id":9,
-            "title":"“ASAL”  Мёд",
-            "price":38,
-            "pricesmall":900,
-            "valute":"som",
-            "sale":30,
-            "image":"./images/мед 1.svg",
-            "isPromotion":true,
-            "isNew":true,
-            "description":"Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-        }
-    ],
-    "recipe":[],
-    "news":[]
+  "users": [
+    {
+      "email": "a@mail.ru",
+      "password": "$2a$10$xnVgVf1MSAg3stq.yyJs8OZo1zrcyI2G9x69PQBCiKPA7JlDkQHhi",
+      "id": 1
+    },
+    {
+      "email": "a2@mail.ru",
+      "password": "$2a$10$Dz/Wq4BIFRYGeAdSenFYP.L8BMLrRrRksZN32DHTI.38tOGO18aXS",
+      "id": 2
+    },
+    {
+      "email": "aa@mail.ru",
+      "password": "$2a$10$snfowL6k9r20Yqjm2O2HFOLUtY2E6zdIPTgNoKQ.0UAnP4ro0ZYNq",
+      "id": 3
+    },
+    {
+      "email": "b@mail.ru",
+      "password": "$2a$10$SxI67ohFJXVYZvIV1GgeO.jSC6sdEKE7E8BW2eeZCuBVf2/tjUdga",
+      "id": 4
+    },
+    {
+      "email": "bb@mail.ru",
+      "password": "$2a$10$59utZaENK/kPO3Zte9mIXO7dqWqndJXuwlbmnSg4uMokJcpb2zuQS",
+      "id": 5
+    },
+    {
+      "email": "bbc@mail.ru",
+      "password": "$2a$10$/InjKkbOZmK1GVhlJ8D1Zevzt1DnnM9Q2n7riRhUM9JIV7g3RSZse",
+      "id": 6
+    },
+    {
+      "email": "aaa@mail.ru",
+      "password": "$2a$10$iu2/sX2uaQgzHbpmUQ1tEuFQN8TrtMVYD1AnIvj2hFqmRpAd7TR9O",
+      "id": 7
+    },
+    {
+      "email": "aaaa@mail.ru",
+      "password": "$2a$10$XSWMxUe6ckGDvJwf9eiIoeR3w2H0QL6oBhKLVnBmqUUDEyzNi7GZ2",
+      "id": 8
+    },
+    {
+      "email": "vvv@mail.ru",
+      "password": "$2a$10$8yWONiS1o8oq1wpSXW9S1O2SlHNHwFJ2maoChc4t8jscN4iGLkmRq",
+      "id": 9
+    },
+    {
+      "email": "q@mail.ru",
+      "password": "$2a$10$6.qUenf6jf0yLR/KRxQcr.UZhXV/wiRRTMGQHTmugL.9R0ciA8hfa",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "“KIDZO”  Мороженое",
+      "price": 17,
+      "pricesmall": 500,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/Kuk.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 2,
+      "title": "“La” Бумага",
+      "price": 20,
+      "pricesmall": 400,
+      "valute": "som",
+      "sale": 25,
+      "image": "./images/бумага.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 3,
+      "title": "“ASAL”  Мёд",
+      "price": 38,
+      "pricesmall": 900,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/мед 1.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 4,
+      "title": "“KIDZO”  Мороженое",
+      "price": 17,
+      "pricesmall": 500,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/Kuk.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 5,
+      "title": "“La” Бумага",
+      "price": 20,
+      "pricesmall": 400,
+      "valute": "som",
+      "sale": 25,
+      "image": "./images/бумага.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 6,
+      "title": "“ASAL”  Мёд",
+      "price": 38,
+      "pricesmall": 900,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/мед 1.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 7,
+      "title": "“ASAL”  Мёд",
+      "price": 38,
+      "pricesmall": 900,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/мед 1.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 8,
+      "title": "“ASAL”  Мёд",
+      "price": 38,
+      "pricesmall": 900,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/мед 1.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    },
+    {
+      "id": 9,
+      "title": "“ASAL”  Мёд",
+      "price": 38,
+      "pricesmall": 900,
+      "valute": "som",
+      "sale": 30,
+      "image": "./images/мед 1.svg",
+      "isPromotion": true,
+      "isNew": true,
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+    }
+  ],
+  "recipe": [],
+  "news": []
 }

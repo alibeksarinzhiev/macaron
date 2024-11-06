@@ -129,6 +129,7 @@ const search = useSelector(state=>state.productsSlice.search)
                     <p className='header__top__ru/en'>Ru</p>
                     <Link to={'basket'} className='header__top__basket'><img src={iconbasket} alt="" /></Link>
                     <div className="header__top__basket__red"></div>
+                    <Link to='/register'><button>регистрация</button></Link>
 
                 </div>
 
