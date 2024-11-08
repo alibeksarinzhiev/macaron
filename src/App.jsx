@@ -19,6 +19,9 @@ import { getProducts } from './store/ProductsSlice/productsSlice.js';
 import {useDispatch } from 'react-redux';
 import Basket from './Pages/Basket/Basket.jsx';
 import Register from './Pages/Register/Register.jsx';
+import Login from './Pages/Login/Login.jsx';
+import PostProduct from './Pages/Admin/PostProduct.jsx';
+import DeleteProducts from './Pages/Admin/DeleteProducts.jsx';
 
 const App = () => {
 
@@ -54,8 +57,11 @@ const App = () => {
       <Route path='single/:id' element={<Single/>}/>
       <Route path='basket' element={<Basket/>}/>
       <Route path='register' element={<Register/>}/>
+      <Route path='login' element={<Login/>}/>
       </Route>
       <Route path='*' element={<NotFound/>}/>
+      <Route path='/adminpost' element={<PostProduct/>} />
+      <Route path='/admindelete' element={<DeleteProducts/>}/>
     </Routes>
       
       
