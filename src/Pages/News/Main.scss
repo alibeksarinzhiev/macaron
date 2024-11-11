@@ -1,153 +1,48 @@
-h2 {
-    font-family: Circe;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 44.22px;
-    text-align: left;
-    position: relative;
-    z-index: 100;
+section {
+  margin-top: 13rem;
 }
 
-.yellow {
-    position: relative;
-    width: 120px;
-    height: 20px;
-    top: 41px;
-    left: 20px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: yellow;
+.section__open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.section__event {
-    display: flex;
-    align-items: center;
-    gap: 92px;
-    margin-top: 20px;
-}
-
-.section__event-line {
-    width: 650px;
-    height: 2px;
-    top: 1084px;
-    left: 260px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: black;
-    margin-top: 16px;
-}
-
-.card {
-
-    display: flex;
-    // align-items: center;
-    gap: 23px;
-    margin-top: 64px;
-
-    .apped {
-        font-family: Circe;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20.64px;
-        text-align: left;
-        margin-top: 48px;
-    }
-
-    h3 {
-        font-family: Circe;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 32.43px;
-        text-align: left;
-        margin-top: 27px;
-    }
-
-    .apped2 {
-        font-family: Circe;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26.7px;
-        text-align: left;
-        margin-top: 39px;
-    }
-
-    .reading {
-        font-family: Circe;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 26.53px;
-        text-align: left;
-        margin-top: 30px;
-        color: #E96023;
-
-    }
+h1 {
+  font-family: Circe;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 
 }
 
-.cards__wrapper {
-    display: flex;
-    justify-content: space-between;
+.section__right img {
+  width: 1000px;
+  height: 580px;
 }
 
-.card-1 {
-    width: 486px;
-    height: 642px;
-    top: 1036px;
-    left: 1174px;
-    gap: 0px;
-    opacity: 0px;
-    margin-top: -30px;
+.section__left__p {
+  font-family: Circe;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.7px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 37px;
+}
 
-    h4 {
-        font-family: Circe;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 32.43px;
-        text-align: left;
-        background: #E96023;
-        color: white;
-        padding-left: 23px;
-    }
-
-    .text-1 {
-        margin-left: 25px;
-    }
-
-    .apped__statya {
-        font-family: Circe;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20.64px;
-        text-align: left;
-        margin-top: 17px;
-    }
-
-    .h3 {
-        font-family: Circe;
-        font-size: 22px;
-        font-weight: 700;
-        line-height: 32.43px;
-        text-align: left;
-        margin-top: 10px;
-    }
-
-    .apped3 {
-        font-family: Circe;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26.7px;
-        text-align: left;
-        margin-top: 20px;
-    }
-
-    .reading_all {
-        font-family: Circe;
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 36.5px;
-        text-align: left;
-        color: #E96023;
-        margin-top: 22px;
-    }
-
+.section_left_end {
+  font-family: Circe;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.64px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: gray;
+  margin-top: 150px;
 }

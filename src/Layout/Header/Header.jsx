@@ -134,7 +134,7 @@ const search = useSelector(state=>state.productsSlice.search)
                 </div>
 
                 <div className="header__center__line"></div>
-
+ 
                 <div className="header__bottom">
 
                     <ul className='header__bottom__left'>
