@@ -20,8 +20,8 @@ import {useDispatch } from 'react-redux';
 import Basket from './Pages/Basket/Basket.jsx';
 import Register from './Pages/Register/Register.jsx';
 import Login from './Pages/Login/Login.jsx';
-import PostProduct from './Pages/Admin/PostProduct.jsx';
-import DeleteProducts from './Pages/Admin/DeleteProducts.jsx';
+
+import AdminPanel from './Pages/AdminPanel/AdminPanel.jsx';
 
 const App = () => {
 
@@ -43,7 +43,7 @@ const App = () => {
     <>
     <Routes>
       <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home />}/>
+      <Route path='' element={<Home/>}/>
       <Route path='shop' element={<Shop/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='carrier' element={<Carrier/>}/>
@@ -60,8 +60,8 @@ const App = () => {
       <Route path='login' element={<Login/>}/>
       </Route>
       <Route path='*' element={<NotFound/>}/>
-      <Route path='/adminpost' element={<PostProduct/>} />
-      <Route path='/admindelete' element={<DeleteProducts/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/adminpanel' element={<AdminPanel/>}/>
     </Routes>
       
       

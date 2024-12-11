@@ -54,15 +54,16 @@
   "products": [
     {
       "id": 1,
-      "title": "“KIDZO”  Мороженое",
-      "price": 17,
-      "pricesmall": 500,
-      "valute": "som",
+      "title": "123",
+      "price": "324",
+      "pricesmall": "",
+      "valute": "",
       "sale": 30,
       "image": "./images/Kuk.svg",
       "isPromotion": true,
       "isNew": true,
-      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию.",
+      "images": ""
     },
     {
       "id": 2,
@@ -78,39 +79,15 @@
     },
     {
       "id": 3,
-      "title": "“ASAL”  Мёд",
-      "price": 38,
-      "pricesmall": 900,
-      "valute": "som",
-      "sale": 30,
-      "image": "./images/мед 1.svg",
-      "isPromotion": true,
-      "isNew": true,
-      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-    },
-    {
-      "id": 4,
-      "title": "“KIDZO”  Мороженое",
-      "price": 17,
-      "pricesmall": 500,
-      "valute": "som",
-      "sale": 30,
-      "image": "./images/Kuk.svg",
-      "isPromotion": true,
-      "isNew": true,
-      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
-    },
-    {
-      "id": 5,
-      "title": "“La” Бумага",
-      "price": 20,
-      "pricesmall": 400,
-      "valute": "som",
-      "sale": 25,
-      "image": "./images/бумага.svg",
-      "isPromotion": true,
-      "isNew": true,
-      "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
+      "title": "Илим",
+      "price": "",
+      "pricesmall": "",
+      "valute": "",
+      "sale": "",
+      "image": "",
+      "isPromotion": "",
+      "isNew": "",
+      "description": ""
     },
     {
       "id": 6,
@@ -161,8 +138,28 @@
       "description": "Вы с друзьями запланировали киномарафон? Не забудьте запастись чипсами на большую компанию."
     },
     {
-      "title": "example",
+      "title": "hsdvbdsj",
+      "image": "",
+      "price": "",
+      "pricesmall": "",
+      "valute": "",
+      "sale": "",
+      "isPromotion": "",
+      "isNew": "",
+      "description": "",
       "id": 10
+    },
+    {
+      "title": "jsdgbkjdsbgkjsd",
+      "image": "",
+      "price": "",
+      "pricesmall": "",
+      "valute": "",
+      "sale": "",
+      "isPromotion": "",
+      "isNew": "",
+      "description": "",
+      "id": 11
     }
   ],
   "recipe": [],

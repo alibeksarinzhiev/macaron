@@ -1,0 +1,229 @@
+.admin__panel {
+    background-color: black;
+    height: 100vh;
+}
+
+.admin_panel__box {
+    display: flex;
+}
+
+.admin__panel__left__box__photo {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.admin__panel__left__box__name {
+    font-family: "Circe", sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.admin__panel__left__box__email {
+    font-family: "Circe", sans-serif;
+    color: white;
+}
+
+.admin__panel__left__box__nav {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    font-family: "Circe", sans-serif;
+    font-size: 22px;
+    margin-bottom: 200px;
+}
+
+.admin__panel__left__box__nav__li {
+    cursor: pointer;
+}
+
+.admin__panel__left__box__nav__li:hover {
+    color: #e96023;
+    transition: .3s;
+}
+
+.admin__panel__left__box__btn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FADF00;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.admin__panel__left__box__btn a {
+    color: black;
+}
+
+.admin__panel__left__box__btn a:hover {
+    color: white;
+    transition: .3s;
+}
+
+.admin__panel__left__box__btn:hover {
+    background-color: #e96023;
+    transition: .3s;
+}
+
+.admin__panel__right__box {
+    width: 1100px;
+    height: 645px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+
+.admin__panel__right__box__add,
+.admin__panel__right__box__change,
+.admin__panel__right__box__delete {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Circe", sans-serif;
+    font-family: 600;
+    font-size: 35px;
+    position: relative;
+}
+
+.admin__panel__right__box__add__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px 0 40px 50px;
+    position: relative;
+}
+
+.admin__panel__right__box__add__input {
+    border: 1px solid #e96023;
+    border-radius: 18px;
+    width: 400px;
+    height: 36px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.admin__panel__right__box__add__form__btn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FADF00;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.admin__panel__right__box__add__form__btn:hover {
+    background-color: #e96023;
+    color: white;
+    transition: .3s;
+}
+
+.admin__panel__right__box__add__massage {
+    width: 230px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 25px;
+    padding-top: 17px;
+    padding-left: 19px;
+    font-family: "Circe", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 660px;
+    margin-top: -340px;
+}
+
+.cards__box__delete {
+    margin-top: 250px;
+    margin-left: -100px;
+}
+
+.admin__panel__right__box__delete__form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 50px;
+    gap: 10px;
+}
+
+.admin__panel__right__box__delete__input {
+    border: 1px solid #e96023;
+    border-radius: 18px;
+    width: 400px;
+    height: 36px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.admin__panel__right__box__find__btn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FADF00;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.admin__panel__right__box__find__btn:hover {
+    background-color: #e96023;
+    color: white;
+    transition: .3s;
+}
+
+.admin__panel__right__box__delete__btn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FADF00;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.admin__panel__right__box__delete__btn:hover {
+    background-color: #e96023;
+    color: white;
+    transition: .3s;
+}
+
+.admin__panel__right__box__change__form {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 50px;
+    gap: 10px;
+}
+
+.admin__panel__right__box__change__input {
+    border: 1px solid #e96023;
+    border-radius: 18px;
+    width: 400px;
+    height: 36px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.admin__panel__right__box__change__btn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #FADF00;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.admin__panel__right__box__change__btn:hover {
+    background-color: #e96023;
+    color: white;
+    transition: .3s;
+}

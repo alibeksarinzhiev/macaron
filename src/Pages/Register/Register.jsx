@@ -3,9 +3,12 @@ import './register.scss'
 import axios from 'axios';
 import closeEye from './RegisterIMG/eye-password-hide.svg'
 import openEye from './RegisterIMG/eye-password-show (1).svg'
+import { Link } from 'react-router-dom';
 
 
 const Register = () => {
+
+    
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -46,7 +49,7 @@ const Register = () => {
                             <h4 className='register__input__e-mail'>E-mail</h4>
                             <input className='register__input__three' type="email" placeholder='E-mail'/>
                         </label>
-                        <label>
+                        <label className='register__input__password__label'>
                             <h4 className='register__input__password'>Пароль</h4>
                             <input className='register__input__four' type={password?"text":"password"} placeholder='Password' />
                         </label>
@@ -55,6 +58,7 @@ const Register = () => {
                     {password?<img className='register__input__password__open' src={openEye} alt="" onClick={handlePassword}/>:<img className='register__input__password__close' src={closeEye} alt="" onClick={(handlePassword)}/>}
                     <button className='register__btn'>Регистрация</button>
                 </form>
+                <Link to={'/adminpanel'}><button className='register__btn__admin'>Вход для Админа</button></Link>
             </div>
         </section>
     );
