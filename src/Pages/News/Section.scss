@@ -1,0 +1,155 @@
+.section_main_events {
+    display: flex;
+    align-items: center;
+    gap: 92px;
+}
+
+.main__events {
+    text-decoration-line: underline;
+}
+
+.section_main_events li {
+    font-family: Circe;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 22.85px;
+    text-align: left;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 70px;
+}
+
+h2 {
+    font-family: Circe;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 44.22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.card1__news {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-top: 45px;
+}
+
+.cardNews__p {
+    font-family: Circe;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 10px;
+}
+
+h3{
+    font-family: Circe;
+font-size: 22px;
+font-weight: 700;
+line-height: 32.43px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 27px;
+}
+.cardNews_p2{
+    font-family: Circe;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.7px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 59px;
+}
+.card1__news button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #E96023;
+    margin-top: 28px;
+    font-family: Circe;
+font-size: 18px;
+font-weight: 400;
+line-height: 26.53px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+h4{
+    font-family: Circe;
+font-size: 22px;
+font-weight: 700;
+line-height: 32.43px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 486px;
+height: 50px;
+top: 1036px;
+left: 1174px;
+gap: 0px;
+opacity: 0px;
+background: #E96023;
+color: white;
+}
+
+.cards__news__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsNews__right {
+    margin-top: 45px;
+}
+
+.card__comments_start{
+    font-family: Circe;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.64px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: gray;
+}
+
+.card_commits_end {
+    font-family: Circe;
+font-size: 16px;
+font-weight: 400;
+line-height: 26.7px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 31px;
+}
+
+.read_all {
+    font-family: Circe;
+font-size: 22px;
+font-weight: 400;
+line-height: 36.5px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+border: none;
+color: #E96023  ;
+}
+
+.card__comments{
+    margin-left: 20px;
+}
